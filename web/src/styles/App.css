@@ -13,9 +13,12 @@
 }
 
 .content {
-  border: solid yellow 2px;
+  /* border: solid yellow 2px; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .container {
@@ -27,6 +30,7 @@
 
 .container-box {
   border: solid wheat 2px;
+  text-align: center;
   cursor: pointer;
   border-radius: 6px;
   width: 200px;

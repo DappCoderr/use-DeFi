@@ -1,21 +1,28 @@
 import React from 'react'
 
-const Content = ({ title, subtitle }) => {
+const Content = () => {
     return (
         <div className="content">
+            <h1 className='content-h1'>Track</h1>
             <div className="container">
-                <h1>Track</h1>
                 <div className='container-box'>
-                    <h3>{title}</h3>
-                    <p>{subtitle}</p>
+                    <h3>Beginners Track</h3>
+                    <p>Level 1</p>
                 </div>
                 <div className='container-box'>
-                    <h3>{title}</h3>
-                    <p>{subtitle}</p>
+                    <h3>Sophomore Track</h3>
+                    <p>Level 2</p>
+                    <p>Coming Soon...</p>
                 </div>
                 <div className='container-box'>
-                    <h3>{title}</h3>
-                    <p>{subtitle}</p>
+                    <h3>Junior Track</h3>
+                    <p>Level 3</p>
+                    <p>Coming Soon...</p>
+                </div>
+                <div className='container-box'>
+                    <h3>Advance Track</h3>
+                    <p>Level 4</p>
+                    <p>Coming Soon...</p>
                 </div>
             </div>
         </div>
