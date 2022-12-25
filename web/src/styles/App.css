@@ -2,6 +2,8 @@
   height: 100%;
   width: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -10,6 +12,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  border-bottom: 2px solid white;
 }
 
 .content {
@@ -18,7 +21,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  justify-items: center;
+  padding-top: 8%;
+  padding-bottom: 10%;
 }
 
 .container {
