@@ -13,20 +13,30 @@
 }
 
 .content {
-  /* border: solid yellow 2px; */
+  border: solid yellow 2px;
   display: flex;
   flex-direction: column;
 }
 
-.container-c {
-  /* border: solid red 2px; */
-  border-radius: 8px;
-  padding: 10px;
-  margin-right: 20vh;
-  margin-left: 20vh;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container-box {
+  border: solid wheat 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.container-box:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 
 .footer {

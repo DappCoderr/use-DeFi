@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="container-h">
-                <h1>usedefi</h1>
+                <h1>learn_defi</h1>
             </div>
         </div>
     )
