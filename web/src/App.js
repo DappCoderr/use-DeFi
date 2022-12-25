@@ -1,21 +1,16 @@
 import './App.css';
 import Content from './component/content';
+import Footer from './component/footer';
+import Header from './component/header';
 
 function App() {
+  const title = "Bignners Track"
+  const subtitle = "Level 1"
   return (
     <div className="App">
-      <div className="header">
-        <div className="container-h">
-          <h1>usedefi</h1>
-        </div>
-      </div>
-      <Content />
-      <div className="footer">
-        <div className="container-f">
-          <h1>build with ❤️ for you</h1>
-          <h1>keep learning and keep building</h1>
-        </div>
-      </div>
+      <Header />
+      <Content title={title} subtitle={subtitle} />
+      <Footer />
     </div>
   );
 }
