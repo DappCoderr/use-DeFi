@@ -4,6 +4,7 @@ const Content = () => {
     return (
         <div className="content">
             <h1 className='content-h1'>Track</h1>
+            <p>Welcome to the world of decentralized finances and automated market makers!!</p>
             <div className="container">
                 <div className='container-box'>
                     <h3>Beginners Track</h3>
